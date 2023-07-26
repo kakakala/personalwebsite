@@ -131,6 +131,14 @@ body{
     margin-right: 24px;
 }
 
+.ml16{
+    margin-left: 16px;
+}
+
+.mr16{
+    margin-right: 16px;
+}
+
 .d-flex{
     display: flex;
 }
@@ -176,6 +184,8 @@ body{
 
 .bg-linear{
     background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    padding-top: 127px;
+    padding-bottom: 127px;
 }
 
 .button{
@@ -189,8 +199,12 @@ header li{
     padding-top: 40px;
 }
 
+.name{
+    margin-left: 24px;
+}
+
 .w-button{
-    margin-left: 451px;
+    margin-left: auto;
 }
 
 .intro-p{
@@ -228,10 +242,6 @@ header li{
     margin-bottom: 24px;
 }
 
-/* .aboutMe-p{
-    width: 526px;
-} */
-
 .aboutMe-p h2{
     margin-bottom: 36px;
 }
@@ -241,12 +251,16 @@ header li{
 }
 
 .contact{
-    padding-top: 127px;
-    padding-bottom: 127px;
+    align-items: center;
 }
 
 .contact h2{
     width: 541px;
+}
+
+.d-aic img:hover{
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+    border-radius: 40px;
 }
 
 .pd160{
