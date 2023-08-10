@@ -254,10 +254,6 @@ header li{
     align-items: center;
 }
 
-.contact h2{
-    width: 541px;
-}
-
 .d-aic img:hover{
     box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
     border-radius: 40px;
